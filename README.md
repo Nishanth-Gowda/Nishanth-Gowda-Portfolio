@@ -1,6 +1,6 @@
 # Nishanth-Gowda-Portfolio
 
-This is a resume portfolio website created using HTML, CSS, JavaScript, and Typed.js. The website is designed to showcase my skills and experience as a developer and provide a platform to share my work and projects.
+This is a resume portfolio website created using HTML, CSS, JavaScript, and Typed.js. The website is designed to showcase my skills and experience as a Cloud Engineer and provide a platform to share my work and projects. You can access the site using the url: www.nishanth.cloud
 
 The website is built using an open-source project from Lucas Angelo as a starting point. This project was bootstrapped using the latest web development technologies and tools such as HTML, CSS, and JavaScript.
 
