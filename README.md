@@ -9,3 +9,5 @@ The website is hosted on AWS using S3 and CloudFront, which provides a fast and 
 I would like to give credit to Lucas Angelo for providing the open-source project that was used to create this website. Without his work and contributions, this website would not have been possible.
 
 Thank you for visiting my website, and I hope you enjoy exploring my work and projects. If you have any questions or feedback, please feel free to contact me.
+
+![Screenshot](portfolio-architecture.png)
