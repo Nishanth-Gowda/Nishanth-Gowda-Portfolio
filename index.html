@@ -88,7 +88,7 @@
           <li><a href="#portfolio"> <span>Projects</span></a></li>
           <li><a href="#skills"> <span>Skills</span></a></li>
           <li><a href="#links" target="_blank"> <span>Links</span></a></li>
-          <li><a href="#contacts"> <span>Contact</span></a></li>
+          <li><a href="#contact" > <span>Contact Me </span></a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -286,7 +286,7 @@
         <div class="col-lg-12" data-aos="fade-up">
           <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
             <h4 style="text-align:left;"><a href="https://www.ltimindtree.com/" target="_blank"
-                style="color:#00eeba">LTIMINDTREE Ltd</a><br> </h4>
+                style="color:#fff">LTIMINDTREE Ltd</a><br> </h4>
             <h5 style="text-align:left;">October 2021 - Present</h5>
             <p style="text-align:left;color:#fff"><em>Associate Software Engineer</em></p>
             <ul style="text-align:left;">
@@ -423,6 +423,31 @@
   </section>
 
   <!-- End Skills Section -->
+<!-- Start Contact Form Section -->
+  <section id="contact" class="services">
+    <div id="container">
+      <a class="profile_link" href="assets/img/profile.jpg" target="_blank" rel="noopener noreferrer">
+        <img class="profile" src="assets/img/profile.jpg" alt="Profile">
+      </a>
+  
+      <div class="form-container">
+        <strong class="description">Contact Me! 📩</strong>
+        <form id="contact-form" method="POST">
+            <h4>Name:</h4>
+            <input type="text" id="name-input" placeholder="Enter name here…" class="form-control" required/><br/>
+            <br>
+            <h4>Phone:</h4>
+            <input type="phone" id="phone-input" placeholder="Enter phone number" class="form-control" required/><br/>
+            <h4>Email:</h4>
+            <input type="email" id="email-input" placeholder="Enter email here…" class="form-control" required/><br/>
+            <h4>Message</h4>
+            <textarea id="description-input" rows="3" placeholder="Enter your message…" class="form-control" required></textarea><br/>
+            <button type="button" onClick="submitToAPI(event)" class="btn btn-lg">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Form Section -->
 
 
   <!-- Start Links Section -->
@@ -448,66 +473,10 @@
         Instagram
       </a>
     </div>
-
   </div>
   </section>
 
   <!-- End Links Section -->
-
-
-  <!-- Start Contact Section -->
-
-  <section id="contacts" class="contact">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Contact</h2>
-      </div>
-
-      <div class="row mt-2">
-
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>Bengaluru, Karnataka</p>
-            <p>India</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
-            <div class="social-links">
-              <a href="https://www.linkedin.com/in/nishanth-gowda/" target="_blank" class="linkedin"><i
-                  class="bx bxl-linkedin"></i></a>
-              <a href="https://www.github.com/Nishanth-Gowda" target="_blank" class="github"><i
-                  class="bx bxl-github"></i></a>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email</h3>
-            <p>mailtonishanthgowda@gmail.com</p>
-          </div>
-        </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Contact</h3>
-            <p>+91 9980945525</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- End Contact Section -->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
