@@ -11,12 +11,12 @@ body {
 }
 
 :root {
-  --primary: #8257e5;
-  --primary-hover: #ab89fa;
-  --background: #121214;
-  --box-background: #3e3b47;
+  --primary: #141313;
+  --primary-hover: #141313;
+  --background: #141313;
+  --box-background: #000000;
   --text-color: #f4ede8;
-  --green: #04d3b0;
+  --green: #141313;
 }
 
 body {
