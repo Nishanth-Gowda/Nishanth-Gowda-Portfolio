@@ -1,4 +1,5 @@
 name: Upload Website to Amazon S3
+run-name: ${{ github.actor }} made a push to GitHub.
 
 on:
   push:
