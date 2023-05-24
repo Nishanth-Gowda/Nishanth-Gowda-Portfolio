@@ -750,8 +750,10 @@ section .container {
 
 
 /* Contact Form Styles */
-contact {
-  background-color: rgba(0, 0, 0, 0.7);
+.contact {
+  background-image: url(assets/img/contact-me-bg.jpg);
+  background-size: cover;
+  background-position: center;
   padding: 50px 0 100px;
 }
 
@@ -855,3 +857,4 @@ button[type="button"]:hover {
 button{
   z-index: 99;
 }
+
