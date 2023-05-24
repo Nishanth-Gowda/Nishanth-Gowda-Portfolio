@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="assets/css/main/contact-styling.css" rel="stylesheet">
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/js/validation.js" type="text/javascript"></script>
+
+    <title>Contact Me</title>
+</head>
+</html>
+<body>
+    <div class="container">
+        <div class="row">
+                <h1>Contact Me</h1>
+        </div>
+        <div class="row">
+                <h4 style="text-align:center">I'd love to hear from you!</h4>
+        </div>
+        <form id="contact-form" method="POST">
+            <div class="row input-container">
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <input type="text" id="name-input"  required/><br/>
+                        <label>Name</label> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="styled-input">
+                        <input type="email" id="email-input" required/><br/>
+                        <label>Email</label> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="styled-input" style="float:right;">
+                        <input type="tel" id="phone-input" required/><br/>
+                        <label>Phone Number</label> 
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <textarea id="description-input" rows="3" required></textarea><br/>
+                        <label>Message</label>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <button type="button" onClick="submitToAPI(event)" class="btn-lrg submit-btn">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
